@@ -3,8 +3,8 @@ import java.awt.Color;
 /**
  * This class describes a circle with a given radius and color.
  *
- * @author nanajjar
- * @version Spring 25
+ * @author Nathan Pereira
+ * @version Spring 20250715
  */
 
 public class Circle {  
@@ -13,12 +13,24 @@ public class Circle {
     private Color color;
     private double area;
 
+    /*
+     * summary: default constructor
+     * @param: null
+     * @return: void
+     */ 
+
     // The default constructor with no argument.
     // It sets the radius and color to their default value.
     public Circle() {
         radius = 1.0;
         this.color = new Color(255,119,65);
     }
+
+    /*
+     * summary: 2nd constructor with given radius and color
+     * @param: double, Color
+     * @return: void
+     */ 
 
     // 2nd constructor with given radius and color
     public Circle(double r, Color clr) {
